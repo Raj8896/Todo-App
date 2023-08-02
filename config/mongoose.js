@@ -1,7 +1,7 @@
 //require the library
 const mongoose = require('mongoose');
 //connect to database
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0.dinpclz.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://Raj:qwertyuiop@cluster0.dinpclz.mongodb.net/?retryWrites=true&w=majority');
 //acquire the connection
 const db = mongoose.connection;
 //error
